@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML & CSS Assignment 2</title>
+    <style>
+        th,
+        table,
+        td,
+        td {
+            border: 1px solid black;
+
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        div {
+            font-weight: bolder;
+        }
+        section,main{
+            border: 2px solid black;
+            border-radius: 4px;
+            margin: 5px;
+            padding: 8px;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+    <h1><u> 1. Student Information</u></h1>
+    <table>
+
+        <tr>
+            <th>Sr.No.</th>
+            <th>Name</th>
+            <th>Subject</th>
+            <th>Marks</th>
+            <th>City</th>
+        </tr>
+        <tr>
+            <td>1.</td>
+            <td>Ram Kumar</td>
+            <td>Mathematics</td>
+            <td>85</td>
+            <td>Gwalior</td>
+        </tr>
+
+        <tr>
+            <td>2.</td>
+            <td>Arun Sharma</td>
+            <td>English</td>
+            <td>90</td>
+            <td>Bhind</td>
+
+        </tr>
+
+        <tr>
+            <td>3.</td>
+            <td>Ramesh Kushwah</td>
+            <td>Science</td>
+            <td>95</td>
+            <td> Indore</td>
+
+        </tr>
+    </table>
+    <br>
+</main>
+    <section>
+    <h1><u>HTML FORM</u></h1>
+    <div>Enter Your Name:<input type="text" name="my name" id="my name" placeholder="ramkumar" required></div> <br>
+    <div>D.O.B.: <input type="date" name="dob" id="dob" required></div><br>
+    <div>
+        <fieldset>
+            <legend>Gender</legend>
+            Male <input type="radio" name="gender" id="gender">
+            Female <input type="radio" name="gender" id="gender">
+        </fieldset>
+    </div><br>
+    <div>City: <select name="city" id="my city">
+            <option value="gwl">Gwalior</option>
+            <option value="ind">Indore</option>
+            <option value="ujj">Ujjain</option>
+            <option value="bhn">Bhind</option>
+        </select></div> <br>
+    <div> Email: <input type="email" name="email" id="myemail" placeholder="ramkumar54545@gmail.com"></div> <br>
+    <div>Are You 18+ ? <input type="checkbox" name="18+" id="18"></div><br>
+    <input type="button" value="Submit Now">
+    <input type="reset" value="Reset Now">
+    <br>
+    <br>
+</section>
+
+
+
+</body>
+
+</html>
